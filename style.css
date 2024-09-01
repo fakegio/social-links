@@ -80,10 +80,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  list-style: none;
 }
 
 .btn:link,
 .btn:visited {
+  display: inline-block;
+  width: 100%;
   text-decoration: none;
   text-align: center;
   padding: 12px;
